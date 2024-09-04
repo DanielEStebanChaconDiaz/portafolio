@@ -9,19 +9,20 @@ import Skills from './pages/skills.jsx';
 import Hdv from './pages/hdv.jsx'
 import Projects from './pages/projects.jsx'
 import Contact from './pages/contact.jsx';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom"; // Cambiado a HashRouter
+
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter> {/* Cambiado a HashRouter */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} /> 
         <Route path="/Skills" element={<Skills />} />
-        <Route path="/HDV" element={<Hdv />} />  // agregado HDV a la ruta de navegación
+        <Route path="/HDV" element={<Hdv />} />  {/* Ruta HDV */}
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
