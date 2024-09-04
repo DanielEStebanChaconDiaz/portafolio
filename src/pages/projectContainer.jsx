@@ -13,7 +13,7 @@ export default function ProjectContainer(){
             </div>
             <div className="project">
                 <h2>Cinema App</h2>
-                <img src="../public/image.png" alt="" />
+                <img src="./image.png" alt="" />
                 <p>Created a mobile app for a cinema, which included developing a custom API. The project featured managing movie listings, showtimes, and ticket bookings, all optimized for a seamless user experience on mobile devices.</p>
                 <button><a href="https://github.com/DanielEStebanChaconDiaz/proyectoMongoII">Go to github</a></button>
             </div>

@@ -16,7 +16,7 @@ export default function Aboutme() {
 
             </div>
             <div className="img2">
-                <img src="../public/about.png" alt="" />
+                <img src="./about.png" alt="" />
             </div>
         </div>
     )
