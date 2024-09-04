@@ -11,7 +11,7 @@ export default function Container(){
                 </div>
             </div>
             <div className="img">
-                <img src="../public/img.jpg" alt="" />
+                <img src="./img.jpg" alt="" />
             </div>
             
         </div>
