@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 2%;
+    z-index: 2;
+}
+li{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
