@@ -7,7 +7,7 @@ export default function Hdv(){
             <Header/>
             <Animacion/>
             <div className="hoja">
-            <h1>Hoja de vida</h1>
+            <h1>Curriculum</h1>
             <img src="./Copia de Ejemplos hojas de vida.png" alt="" />
             </div>
         </div>

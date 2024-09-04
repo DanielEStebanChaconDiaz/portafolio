@@ -10,7 +10,7 @@ export default function Header(){
                     <a href="#/" className='home'>Home</a> {/* Actualizado a usar hash */}
                     <a href="#/About" className='about'>About me</a> {/* Actualizado a usar hash */}
                     <a href="#/Skills" className='skills1'>Skills</a> {/* Actualizado a usar hash */}
-                    <a href="#/HDV" className='hdv'>HDV</a> {/* Actualizado a usar hash */}
+                    <a href="#/HDV" className='hdv'>CV</a> {/* Actualizado a usar hash */}
                     <a href="#/Projects" className='projects'>Projects</a> {/* Actualizado a usar hash */}
                     <a href="#/Contact" className='contact'>Contact</a> {/* Actualizado a usar hash */}
                 </li>
